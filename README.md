@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition using MNIST
 
-## Overview
-This project implements a handwritten digit recognition system using a Convolutional Neural Network (CNN) trained on the MNIST dataset. A Streamlit web application is used to allow users to draw digits and receive real-time predictions.
+## Project Overview
+This project implements a handwritten digit recognition system using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The trained model is deployed using Streamlit, allowing users to draw digits and receive real-time predictions.
 
 ## Technologies Used
 - Python 3.10
@@ -13,8 +13,9 @@ This project implements a handwritten digit recognition system using a Convoluti
 ## Project Structure
 - `app.py` – Streamlit web application
 - `mnist_digit_model.h5` – Trained CNN model
-- `Handwritten_Digit_Recognition_MNIST.ipynb` – Model training notebook
-- `requirements.txt` – Project dependencies
+- `requirements.txt` – Python dependencies
+- `colab_notebook/` – Model training notebook
+- `screenshots/` – Output and UI screenshots
 
 ## How to Run the Project
 ```bash
